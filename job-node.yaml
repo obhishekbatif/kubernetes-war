@@ -2,7 +2,8 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: kube-bench-node
+  name: va2pt-bench-node
+  namespace: va2pt-bench
 spec:
   template:
     spec:
